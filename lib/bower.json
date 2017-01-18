@@ -1,0 +1,21 @@
+{
+  "name": "lib",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "krishnapriya <krishnapriyakamesh@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/priyakamesh/Wide-World-Travel-Guides",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.6.1",
+    "bootstrap": "^3.3.7"
+  }
+}
