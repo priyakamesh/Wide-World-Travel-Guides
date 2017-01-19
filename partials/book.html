@@ -1,8 +1,0 @@
-<div>
-    <h1>Book List</h1>
-    <input type="text" ng-model="searchList" placeholder="Search here"/>
-    <ul>
-      <li ng-repeat="book in books | filter : searchList" class="liststyle"><div class="title">Title: {{book.title}}</div> <div> Book Type: {{book.type}}</div> <div class="blink"> Price: {{book.price}}</div></li>
-    </ul>
-
-  </div>
