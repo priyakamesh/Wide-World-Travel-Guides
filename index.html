@@ -8,18 +8,13 @@
 </head>
 <body ng-app="guideApp">
   <h1>World Wide Travel Guides</h1>
-  <div ng-controller="BookCtrl">
-    <h1>Book List</h1>
-    <input type="text" ng-model="searchList" placeholder="Search here"/>
-    <ul>
-      <li ng-repeat="book in books | filter : searchList" class="liststyle"><div class="title">Title: {{book.title}}</div> <div> Book Type: {{book.type}}</div> <div class="blink"> Price: {{book.price}}</div></li>
-    </ul>
-
-  </div>
+  <div ng-view></div>
   <script  src="/lib/bower_components/angular/angular.js"></script>
   <script  src="/lib/bower_components/angular-route/angular-route.js"></script>
   <script  src="/app/app.js"></script>
+  <script src="/app/factory/guideFactory.js"></script>
   <script  src="/app/controllers/bookCtrl.js"></script>
+
   <script src=""></script>
 </body>
 </html>
