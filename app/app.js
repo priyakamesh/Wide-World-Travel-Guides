@@ -5,6 +5,6 @@ app.config(($routeProvider,$locationProvider)=>{
   $routeProvider
   .when ("/", {
     controller: "BookCtrl",
-    templateUrl: "partials/book.html"
+    templateUrl: "partials/guide-list.html"
   })
 })
